@@ -14,7 +14,7 @@ def backtest_static_portfolio(weights, database, ben="^GSPC", timeframe=252, CR=
     import numpy as np
     from scipy.optimize import minimize
     import matplotlib.pyplot as plt
-    plt.style.use('seaborn')
+    plt.style.use('seaborn-v0_8')
 
 
     # Compute the portfolio

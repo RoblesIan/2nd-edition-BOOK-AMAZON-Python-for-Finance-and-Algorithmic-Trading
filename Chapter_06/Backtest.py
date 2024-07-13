@@ -3,7 +3,7 @@ import yfinance as yf
 import numpy as np
 from scipy.optimize import minimize
 import matplotlib.pyplot as plt
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 import matplotlib as mpl
 
 
@@ -23,7 +23,7 @@ def backtest_static_portfolio(weights, database, ben="^GSPC", timeframe=252, CR=
     import numpy as np
     from scipy.optimize import minimize
     import matplotlib.pyplot as plt
-    plt.style.use('seaborn')
+    plt.style.use('seaborn-v0_8')
 
 
     # Compute the portfolio
@@ -194,7 +194,7 @@ def backtest_dynamic_portfolio(dfc, ben="^GSPC", timeframe=252):
   import numpy as np
   from scipy.optimize import minimize
   import matplotlib.pyplot as plt
-  plt.style.use('seaborn')
+  plt.style.use('seaborn-v0_8')
   import matplotlib as mpl
   import matplotlib.pyplot as plt
 
